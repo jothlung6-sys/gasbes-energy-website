@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-const gasbesLogo = "/gasbes-logo-enhanced.svg";
+import gasbesLogo from "@assets/gasbes Energy logo-web_1753607811487.png";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
