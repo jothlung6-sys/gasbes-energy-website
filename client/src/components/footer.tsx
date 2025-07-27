@@ -53,16 +53,12 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div className="md:col-span-2">
-            <div className="flex items-center space-x-3 mb-6">
+            <div className="flex justify-center mb-6">
               <img 
                 src={gasbesLogo} 
                 alt="Gasbes Energy Logo" 
-                className="w-12 h-12 object-contain"
+                className="w-24 h-24 object-contain filter brightness-0 invert"
               />
-              <div>
-                <h1 className="text-xl font-bold">Gasbes Energy</h1>
-                <p className="text-sm text-gray-300">Renewable Energy Solutions</p>
-              </div>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               Leading Zambia's renewable energy revolution with innovative solar and biogas solutions. 

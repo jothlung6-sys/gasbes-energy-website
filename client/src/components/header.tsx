@@ -18,16 +18,12 @@ export default function Header() {
     <header className="bg-white shadow-lg fixed w-full top-0 z-50">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center">
             <img 
               src={gasbesLogo} 
               alt="Gasbes Energy Logo" 
-              className="w-12 h-12 object-contain"
+              className="w-16 h-16 object-contain"
             />
-            <div>
-              <h1 className="text-xl font-bold text-forest-green">Gasbes Energy</h1>
-              <p className="text-xs text-gray-600">Renewable Energy Solutions</p>
-            </div>
           </div>
           
           {/* Desktop Navigation */}

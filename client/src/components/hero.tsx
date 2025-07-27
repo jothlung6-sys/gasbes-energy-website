@@ -10,22 +10,22 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="pt-24 bg-gradient-to-br from-forest-green to-coffee-brown text-white">
+    <section id="home" className="pt-24 bg-gradient-to-br from-warm-orange to-earth-orange text-white">
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white drop-shadow-lg">
               Powering Africa, <br />
-              <span className="text-warm-orange">One Roof at a Time</span>
+              <span className="text-yellow-100">One Roof at a Time</span>
             </h1>
-            <p className="text-xl mb-8 text-gray-200">
+            <p className="text-xl mb-8 text-white drop-shadow-md">
               Leading the renewable energy revolution in Zambia with cutting-edge solar and biogas solutions. 
               Join thousands of satisfied customers in the fight against energy poverty.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 onClick={() => scrollToSection('contact')} 
-                className="bg-warm-orange text-white hover:bg-earth-orange text-lg px-8 py-4 h-auto"
+                className="bg-forest-green text-white hover:bg-coffee-brown text-lg px-8 py-4 h-auto shadow-lg"
               >
                 <Calculator className="mr-2 h-5 w-5" />
                 Get Free Quote
@@ -33,7 +33,7 @@ export default function Hero() {
               <Button 
                 onClick={() => scrollToSection('about')} 
                 variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-forest-green text-lg px-8 py-4 h-auto"
+                className="border-2 border-white text-white hover:bg-white hover:text-coffee-brown text-lg px-8 py-4 h-auto shadow-lg"
               >
                 <Play className="mr-2 h-5 w-5" />
                 Learn More
