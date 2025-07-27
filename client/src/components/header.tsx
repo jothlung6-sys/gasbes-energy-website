@@ -22,7 +22,7 @@ export default function Header() {
             <img 
               src={gasbesLogo} 
               alt="Gasbes Energy Logo" 
-              className="h-24 w-auto object-contain"
+              className="h-32 w-auto object-contain"
             />
           </div>
           
