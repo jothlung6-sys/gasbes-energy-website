@@ -20,7 +20,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-20 bg-gradient-to-br from-forest-green to-coffee-brown text-white">
+    <section className="py-20 bg-gradient-to-br from-warm-orange to-earth-orange text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">What Our Customers Say</h2>
