@@ -6,7 +6,7 @@ import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import type { InsertNewsletterSubscription } from "@shared/schema";
-import Logo from "@/components/logo";
+import gasbesLogo from "@assets/gasbes Energy logo-web_1753607811487.png";
 
 export default function Footer() {
   const { toast } = useToast();
@@ -54,7 +54,11 @@ export default function Footer() {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="flex justify-center mb-6">
-              <Logo variant="footer" />
+              <img 
+                src={gasbesLogo} 
+                alt="Gasbes Energy Logo" 
+                className="w-96 h-auto object-contain max-h-48"
+              />
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               Leading Zambia's renewable energy revolution with innovative solar and biogas solutions. 
