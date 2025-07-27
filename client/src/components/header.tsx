@@ -17,12 +17,12 @@ export default function Header() {
   return (
     <header className="bg-white shadow-lg fixed w-full top-0 z-50">
       <nav className="container mx-auto px-4 py-1">
-        <div className="flex justify-between items-center min-h-[80px]">
+        <div className="flex justify-between items-center min-h-[100px]">
           <div className="flex items-center">
             <img 
               src={gasbesLogo} 
               alt="Gasbes Energy Logo" 
-              className="h-16 w-auto object-contain"
+              className="h-20 w-auto object-contain"
             />
           </div>
           
