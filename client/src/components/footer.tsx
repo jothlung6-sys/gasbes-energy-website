@@ -6,7 +6,7 @@ import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import type { InsertNewsletterSubscription } from "@shared/schema";
-import gasbesLogo from "@assets/gasbes Energy logo-web_1753607811487.png";
+const gasbesLogo = "/gasbes-logo-white.svg";
 
 export default function Footer() {
   const { toast } = useToast();
@@ -57,7 +57,7 @@ export default function Footer() {
               <img 
                 src={gasbesLogo} 
                 alt="Gasbes Energy Logo" 
-                className="w-80 h-auto object-contain"
+                className="w-96 h-auto object-contain max-h-48"
               />
             </div>
             <p className="text-gray-300 mb-6 max-w-md">

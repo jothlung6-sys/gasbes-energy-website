@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import gasbesLogo from "@assets/gasbes Energy logo-web_1753607811487.png";
+const gasbesLogo = "/gasbes-logo-enhanced.svg";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,7 +22,7 @@ export default function Header() {
             <img 
               src={gasbesLogo} 
               alt="Gasbes Energy Logo" 
-              className="h-36 w-auto object-contain"
+              className="h-32 w-auto object-contain"
             />
           </div>
           

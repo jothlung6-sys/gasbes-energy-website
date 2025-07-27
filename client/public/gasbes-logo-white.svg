@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Africa icon with circle -->
+  <g transform="translate(20, 40)">
+    <!-- Yellow circle -->
+    <circle cx="60" cy="60" r="55" fill="none" stroke="#FFD700" stroke-width="8"/>
+    <!-- Yellow sun dot -->
+    <circle cx="95" cy="25" r="12" fill="#FFD700"/>
+    <!-- Africa continent shape -->
+    <path d="M30 35 Q35 20 50 25 Q70 15 85 30 Q95 25 100 35 Q105 50 95 65 Q100 80 85 90 Q75 100 60 95 Q45 105 35 90 Q25 85 20 70 Q15 55 25 45 Q25 35 30 35" 
+          fill="#8B4513" stroke="#654321" stroke-width="2"/>
+    <!-- Grid pattern on Africa -->
+    <g stroke="#654321" stroke-width="1" opacity="0.3">
+      <line x1="35" y1="40" x2="85" y2="40"/>
+      <line x1="35" y1="50" x2="85" y2="50"/>
+      <line x1="35" y1="60" x2="85" y2="60"/>
+      <line x1="35" y1="70" x2="85" y2="70"/>
+      <line x1="35" y1="80" x2="85" y2="80"/>
+      <line x1="45" y1="30" x2="45" y2="90"/>
+      <line x1="55" y1="30" x2="55" y2="90"/>
+      <line x1="65" y1="30" x2="65" y2="90"/>
+      <line x1="75" y1="30" x2="75" y2="90"/>
+    </g>
+  </g>
+  
+  <!-- GASBES text -->
+  <g transform="translate(140, 50)">
+    <text x="0" y="40" font-family="Arial Black, sans-serif" font-size="48" font-weight="900" fill="white" stroke="#333" stroke-width="1">GASBES</text>
+  </g>
+  
+  <!-- ENERGY text -->
+  <g transform="translate(140, 90)">
+    <text x="0" y="40" font-family="Arial Black, sans-serif" font-size="32" font-weight="900" fill="white" stroke="#333" stroke-width="1">ENERGY</text>
+  </g>
+  
+  <!-- Tagline -->
+  <g transform="translate(140, 140)">
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" stroke="#333" stroke-width="0.5">by Biozam Corporate Limited</text>
+  </g>
+</svg>

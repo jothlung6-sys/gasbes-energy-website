@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background for better contrast -->
+  <rect width="400" height="200" fill="rgba(255,255,255,0.1)" rx="10"/>
+  
+  <!-- Africa icon with circle -->
+  <g transform="translate(20, 40)">
+    <!-- Yellow circle with glow effect -->
+    <circle cx="60" cy="60" r="58" fill="none" stroke="#FFD700" stroke-width="3" opacity="0.3"/>
+    <circle cx="60" cy="60" r="55" fill="none" stroke="#FFD700" stroke-width="6"/>
+    <!-- Yellow sun dot with glow -->
+    <circle cx="95" cy="25" r="15" fill="#FFD700" opacity="0.3"/>
+    <circle cx="95" cy="25" r="12" fill="#FFD700"/>
+    <!-- Africa continent shape with better definition -->
+    <path d="M30 35 Q35 20 50 25 Q70 15 85 30 Q95 25 100 35 Q105 50 95 65 Q100 80 85 90 Q75 100 60 95 Q45 105 35 90 Q25 85 20 70 Q15 55 25 45 Q25 35 30 35" 
+          fill="#8B4513" stroke="#654321" stroke-width="3"/>
+    <!-- Enhanced grid pattern -->
+    <g stroke="#654321" stroke-width="1.5" opacity="0.5">
+      <line x1="35" y1="40" x2="85" y2="40"/>
+      <line x1="35" y1="50" x2="85" y2="50"/>
+      <line x1="35" y1="60" x2="85" y2="60"/>
+      <line x1="35" y1="70" x2="85" y2="70"/>
+      <line x1="35" y1="80" x2="85" y2="80"/>
+      <line x1="45" y1="30" x2="45" y2="90"/>
+      <line x1="55" y1="30" x2="55" y2="90"/>
+      <line x1="65" y1="30" x2="65" y2="90"/>
+      <line x1="75" y1="30" x2="75" y2="90"/>
+    </g>
+  </g>
+  
+  <!-- GASBES text with enhanced visibility -->
+  <g transform="translate(140, 50)">
+    <!-- Text shadow -->
+    <text x="2" y="42" font-family="Arial Black, sans-serif" font-size="48" font-weight="900" fill="rgba(0,0,0,0.3)">GASBES</text>
+    <!-- Main text -->
+    <text x="0" y="40" font-family="Arial Black, sans-serif" font-size="48" font-weight="900" fill="#8B4513" stroke="white" stroke-width="2">GASBES</text>
+  </g>
+  
+  <!-- ENERGY text with enhanced visibility -->
+  <g transform="translate(140, 90)">
+    <!-- Text shadow -->
+    <text x="2" y="42" font-family="Arial Black, sans-serif" font-size="32" font-weight="900" fill="rgba(0,0,0,0.3)">ENERGY</text>
+    <!-- Main text -->
+    <text x="0" y="40" font-family="Arial Black, sans-serif" font-size="32" font-weight="900" fill="#8B4513" stroke="white" stroke-width="2">ENERGY</text>
+  </g>
+  
+  <!-- Enhanced tagline with better contrast -->
+  <g transform="translate(140, 140)">
+    <!-- Background rectangle for tagline -->
+    <rect x="-5" y="5" width="220" height="25" fill="rgba(255,255,255,0.9)" rx="3"/>
+    <!-- Tagline text -->
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">by Biozam Corporate Limited</text>
+  </g>
+</svg>
