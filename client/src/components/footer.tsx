@@ -57,7 +57,7 @@ export default function Footer() {
               <img 
                 src={gasbesLogo} 
                 alt="Gasbes Energy Logo" 
-                className="w-32 h-32 object-contain filter brightness-0 invert"
+                className="w-48 h-48 object-contain filter brightness-0 invert"
               />
             </div>
             <p className="text-gray-300 mb-6 max-w-md">

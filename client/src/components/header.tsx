@@ -22,7 +22,7 @@ export default function Header() {
             <img 
               src={gasbesLogo} 
               alt="Gasbes Energy Logo" 
-              className="w-24 h-24 object-contain"
+              className="w-32 h-32 object-contain"
             />
           </div>
           
