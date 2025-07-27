@@ -14,11 +14,11 @@ export default function Hero() {
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white drop-shadow-lg">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white drop-shadow-2xl">
               Powering Africa, <br />
-              <span className="text-yellow-100">One Roof at a Time</span>
+              <span className="text-yellow-300 drop-shadow-2xl">One Roof at a Time</span>
             </h1>
-            <p className="text-xl mb-8 text-white drop-shadow-md">
+            <p className="text-xl mb-8 text-gray-100 drop-shadow-xl">
               Leading the renewable energy revolution in Zambia with cutting-edge solar and biogas solutions. 
               Join thousands of satisfied customers in the fight against energy poverty.
             </p>
