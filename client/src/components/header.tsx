@@ -16,13 +16,13 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-lg fixed w-full top-0 z-50">
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="container mx-auto px-4 py-2">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <img 
               src={gasbesLogo} 
               alt="Gasbes Energy Logo" 
-              className="w-48 h-48 object-contain"
+              className="w-40 h-40 object-contain"
             />
           </div>
           
