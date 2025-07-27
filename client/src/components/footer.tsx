@@ -53,7 +53,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div className="md:col-span-2">
-            <div className="flex justify-start mb-4 -ml-4">
+            <div className="flex justify-start mb-4 -ml-8">
               <img 
                 src={gasbesLogo} 
                 alt="Gasbes Energy Logo" 
