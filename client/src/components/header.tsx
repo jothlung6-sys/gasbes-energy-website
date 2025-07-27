@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import gasbesLogo from "@assets/gasbes logo- by biozam_1753605522320.png";
+import gasbesLogo from "@assets/gasbes Energy logo-web_1753607811487.png";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,12 +17,12 @@ export default function Header() {
   return (
     <header className="bg-white shadow-lg fixed w-full top-0 z-50">
       <nav className="container mx-auto px-4 py-1">
-        <div className="flex justify-between items-center min-h-[120px]">
+        <div className="flex justify-between items-center min-h-[100px]">
           <div className="flex items-center">
             <img 
               src={gasbesLogo} 
               alt="Gasbes Energy Logo" 
-              className="h-28 w-auto object-contain"
+              className="h-24 w-auto object-contain"
             />
           </div>
           
