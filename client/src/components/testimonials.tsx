@@ -1,0 +1,56 @@
+import { Star, User } from "lucide-react";
+
+const testimonials = [
+  {
+    name: "John Mwanza",
+    title: "Restaurant Owner",
+    content: "Gasbes Energy transformed our restaurant operations. We've cut our electricity costs by 80% and now have reliable power even during outages. Their professional installation and ongoing support is exceptional."
+  },
+  {
+    name: "Grace Phiri",
+    title: "Homeowner", 
+    content: "Our family finally has reliable electricity 24/7. The children can study at night and we can keep our food fresh. Gasbes Energy made solar affordable and installation was quick and professional."
+  },
+  {
+    name: "Dr. Samuel Banda",
+    title: "Clinic Director",
+    content: "Gasbes Energy's solar solution ensures our medical equipment runs continuously. Their backup systems have saved countless lives by maintaining vaccine storage and emergency lighting during power outages."
+  }
+];
+
+export default function Testimonials() {
+  return (
+    <section className="py-20 bg-gradient-to-br from-forest-green to-coffee-brown text-white">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold mb-4">What Our Customers Say</h2>
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto">
+            Real experiences from satisfied customers who have transformed their energy access with Gasbes Energy.
+          </p>
+        </div>
+        
+        <div className="grid md:grid-cols-3 gap-8">
+          {testimonials.map((testimonial, index) => (
+            <div key={index} className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-warm-orange rounded-full flex items-center justify-center mr-4">
+                  <User className="w-6 h-6 text-white" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-lg">{testimonial.name}</h4>
+                  <p className="text-gray-200 text-sm">{testimonial.title}</p>
+                </div>
+              </div>
+              <div className="flex mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 text-warm-orange fill-current" />
+                ))}
+              </div>
+              <p className="text-gray-200">{testimonial.content}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
