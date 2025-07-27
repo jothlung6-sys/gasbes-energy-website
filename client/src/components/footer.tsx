@@ -6,6 +6,7 @@ import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import type { InsertNewsletterSubscription } from "@shared/schema";
+import gasbesLogo from "@assets/gasbes logo- by biozam_1753605522320.png";
 
 export default function Footer() {
   const { toast } = useToast();
@@ -53,11 +54,11 @@ export default function Footer() {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-warm-orange rounded-lg flex items-center justify-center">
-                <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2L13.09 5.26L16 4L15.74 7.26L19 8L16.74 10.74L19 12L15.74 13.26L16 16L13.09 14.74L12 18L10.91 14.74L8 16L8.26 13.26L5 12L8.26 10.74L8 8L10.91 5.26L12 2Z"/>
-                </svg>
-              </div>
+              <img 
+                src={gasbesLogo} 
+                alt="Gasbes Energy Logo" 
+                className="w-12 h-12 object-contain"
+              />
               <div>
                 <h1 className="text-xl font-bold">Gasbes Energy</h1>
                 <p className="text-sm text-gray-300">Renewable Energy Solutions</p>

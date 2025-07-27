@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import gasbesLogo from "@assets/gasbes logo- by biozam_1753605522320.png";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,11 +19,11 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-forest-green rounded-lg flex items-center justify-center">
-              <svg className="w-6 h-6 text-warm-orange" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2L13.09 5.26L16 4L15.74 7.26L19 8L16.74 10.74L19 12L15.74 13.26L16 16L13.09 14.74L12 18L10.91 14.74L8 16L8.26 13.26L5 12L8.26 10.74L8 8L10.91 5.26L12 2Z"/>
-              </svg>
-            </div>
+            <img 
+              src={gasbesLogo} 
+              alt="Gasbes Energy Logo" 
+              className="w-12 h-12 object-contain"
+            />
             <div>
               <h1 className="text-xl font-bold text-forest-green">Gasbes Energy</h1>
               <p className="text-xs text-gray-600">Renewable Energy Solutions</p>
