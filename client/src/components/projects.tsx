@@ -1,11 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import sandysCreationImg from "@assets/IMG-20250805-WA0022_1754435171407.jpg";
 
 const projects = [
   {
     title: "Sandy's Creation Restaurant",
     description: "488kWp commercial solar installation providing clean energy for restaurant operations, reducing electricity costs by 80%.",
-    image: "@assets/IMG-20250805-WA0022_1754435171407.jpg",
+    image: sandysCreationImg,
     type: "Commercial",
     capacity: "488kWp Installed",
     badgeColor: "bg-warm-orange"
