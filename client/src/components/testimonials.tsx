@@ -23,8 +23,8 @@ export default function Testimonials() {
     <section className="py-20 bg-gradient-to-br from-warm-orange to-earth-orange text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 text-white">What Our Customers Say</h2>
-          <p className="text-xl text-white max-w-3xl mx-auto">
+          <h2 className="text-4xl font-bold mb-4 text-white drop-shadow-lg">What Our Customers Say</h2>
+          <p className="text-xl text-white max-w-3xl mx-auto drop-shadow-md">
             Real experiences from satisfied customers who have transformed their energy access with Gasbes Energy.
           </p>
         </div>
@@ -37,8 +37,8 @@ export default function Testimonials() {
                   <User className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-white">{testimonial.name}</h4>
-                  <p className="text-white/90 text-sm">{testimonial.title}</p>
+                  <h4 className="font-bold text-lg text-white drop-shadow-md">{testimonial.name}</h4>
+                  <p className="text-white/90 text-sm drop-shadow-sm">{testimonial.title}</p>
                 </div>
               </div>
               <div className="flex mb-4">
@@ -46,7 +46,7 @@ export default function Testimonials() {
                   <Star key={i} className="w-5 h-5 text-warm-orange fill-current" />
                 ))}
               </div>
-              <p className="text-white">{testimonial.content}</p>
+              <p className="text-white drop-shadow-md">{testimonial.content}</p>
             </div>
           ))}
         </div>
