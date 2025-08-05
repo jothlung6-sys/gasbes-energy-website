@@ -4,10 +4,10 @@ import { Badge } from "@/components/ui/badge";
 const projects = [
   {
     title: "Sandy's Creation Restaurant",
-    description: "50kW commercial solar installation providing clean energy for restaurant operations, reducing electricity costs by 80%.",
-    image: "https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    description: "488kWp commercial solar installation providing clean energy for restaurant operations, reducing electricity costs by 80%.",
+    image: "@assets/IMG-20250805-WA0022_1754435171407.jpg",
     type: "Commercial",
-    capacity: "50kW Installed",
+    capacity: "488kWp Installed",
     badgeColor: "bg-warm-orange"
   },
   {
