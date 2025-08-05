@@ -16,7 +16,7 @@ export default function Hero() {
           <div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-2xl">
               <span className="text-forest-green drop-shadow-2xl">Powering Africa</span>, <br />
-              <span className="text-yellow-300 drop-shadow-2xl">One Roof at a Time</span>
+              <span className="text-warm-orange drop-shadow-2xl">One Roof at a Time</span>
             </h1>
             <p className="text-xl mb-8 text-white font-medium drop-shadow-2xl" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
               Leading the renewable energy revolution in Zambia with cutting-edge solar and biogas solutions. 
@@ -25,14 +25,14 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 onClick={() => scrollToSection('contact')} 
-                className="bg-forest-green text-white hover:bg-coffee-brown text-lg px-8 py-4 h-auto shadow-lg"
+                className="bg-forest-green text-white hover:bg-white hover:text-forest-green text-lg px-8 py-4 h-auto shadow-lg"
               >
                 <Calculator className="mr-2 h-5 w-5" />
                 Get Free Quote
               </Button>
               <Button 
                 onClick={() => scrollToSection('about')} 
-                className="bg-warm-orange text-white hover:bg-forest-green hover:text-white text-lg px-8 py-4 h-auto shadow-lg border-none"
+                className="bg-warm-orange text-white hover:bg-white hover:text-warm-orange text-lg px-8 py-4 h-auto shadow-lg border-none"
               >
                 <Play className="mr-2 h-5 w-5" />
                 Learn More
