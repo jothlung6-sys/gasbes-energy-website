@@ -32,8 +32,7 @@ export default function Hero() {
               </Button>
               <Button 
                 onClick={() => scrollToSection('about')} 
-                variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-coffee-brown text-lg px-8 py-4 h-auto shadow-lg"
+                className="bg-warm-orange text-white hover:bg-forest-green hover:text-white text-lg px-8 py-4 h-auto shadow-lg border-none"
               >
                 <Play className="mr-2 h-5 w-5" />
                 Learn More
