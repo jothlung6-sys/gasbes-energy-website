@@ -18,7 +18,7 @@ export default function Hero() {
               <span className="text-forest-green drop-shadow-2xl">Powering Africa</span>, <br />
               <span className="text-yellow-300 drop-shadow-2xl">One Roof at a Time</span>
             </h1>
-            <p className="text-xl mb-8 text-gray-100 drop-shadow-xl">
+            <p className="text-xl mb-8 text-white font-medium drop-shadow-2xl" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
               Leading the renewable energy revolution in Zambia with cutting-edge solar and biogas solutions. 
               Join thousands of satisfied customers in the fight against energy poverty.
             </p>
