@@ -23,8 +23,8 @@ export default function Testimonials() {
     <section className="py-20 bg-gradient-to-br from-warm-orange to-earth-orange text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 text-white drop-shadow-2xl">What Our Customers Say</h2>
-          <p className="text-xl text-white font-medium max-w-3xl mx-auto drop-shadow-xl" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
+          <h2 className="text-4xl font-bold mb-4 text-white">What Our Customers Say</h2>
+          <p className="text-xl text-white max-w-3xl mx-auto">
             Real experiences from satisfied customers who have transformed their energy access with Gasbes Energy.
           </p>
         </div>
@@ -37,16 +37,16 @@ export default function Testimonials() {
                   <User className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-white drop-shadow-lg">{testimonial.name}</h4>
-                  <p className="text-white/90 text-sm font-medium drop-shadow-md">{testimonial.title}</p>
+                  <h4 className="font-bold text-lg text-white">{testimonial.name}</h4>
+                  <p className="text-white/90 text-sm">{testimonial.title}</p>
                 </div>
               </div>
               <div className="flex mb-4">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-yellow-300 fill-current drop-shadow-md" />
+                  <Star key={i} className="w-5 h-5 text-warm-orange fill-current" />
                 ))}
               </div>
-              <p className="text-white font-medium drop-shadow-lg" style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.7)' }}>{testimonial.content}</p>
+              <p className="text-white">{testimonial.content}</p>
             </div>
           ))}
         </div>
