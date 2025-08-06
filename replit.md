@@ -1,7 +1,7 @@
 # replit.md
 
 ## Overview
-This is a renewable energy company website for Gasbes Energy, built as a full-stack web application. The application features a modern React frontend with a Node.js/Express backend, designed to showcase solar and biogas solutions while capturing leads through contact forms and newsletter subscriptions.
+This is a renewable energy company website for Gasbes Energy, built as a full-stack web application. The application features a modern React frontend with a Node.js/Express backend, designed to showcase solar and biogas solutions while capturing leads through contact forms and newsletter subscriptions. The website includes authentic company information including their real address in Lusaka, Zambia and showcases actual project installations.
 
 ## User Preferences
 Preferred communication style: Simple, everyday language.
@@ -110,3 +110,10 @@ The application uses three main tables:
 ```
 
 The application is designed for easy deployment on platforms supporting Node.js with PostgreSQL databases, with Replit-specific optimizations for development environment.
+
+## Recent Changes
+- **August 2025**: Updated contact section with authentic Gasbes Energy address: Corner Okra and Likaka Street, Salama Park, 5 Likaka Street, Lusaka 10101, Zambia
+- **August 2025**: Updated Sandy's Creation Restaurant project with real aerial photo of 488kWp commercial solar installation
+- **August 2025**: Enhanced hero section with company branding colors (green "Powering Africa", orange "One Roof at a Time")
+- **August 2025**: Improved testimonials section visibility with proper contrast and orange star ratings
+- **August 2025**: Optimized button hover effects (white backgrounds on hover for both CTA buttons)

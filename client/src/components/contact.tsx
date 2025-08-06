@@ -177,7 +177,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg text-dark-gray mb-1">Office Address</h4>
-                    <p className="text-gray-600">Plot 123, Independence Avenue<br />Lusaka, Zambia</p>
+                    <p className="text-gray-600">Corner Okra and Likaka Street<br />Salama Park, 5 Likaka Street<br />Lusaka 10101, Zambia</p>
                   </div>
                 </div>
                 
