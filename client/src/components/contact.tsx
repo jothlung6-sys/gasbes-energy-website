@@ -222,12 +222,48 @@ export default function Contact() {
               </div>
             </div>
             
-            {/* Google Maps Placeholder */}
-            <div className="bg-gray-200 h-64 rounded-2xl flex items-center justify-center">
-              <div className="text-center text-gray-500">
-                <MapPin className="w-16 h-16 mx-auto mb-4" />
-                <p className="text-lg font-semibold">Interactive Map</p>
-                <p className="text-sm">Google Maps integration</p>
+            {/* Google Maps */}
+            <div className="rounded-2xl overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61983.75!2d28.2871!3d-15.4067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDI0JzI0LjEiUyAyOMKwMTcnMTMuNiJF!5e0!3m2!1sen!2s!4v1699123456789!5m2!1sen!2s&q=Salama+Park+Lusaka+Zambia"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Gasbes Energy Office Location - Salama Park, Lusaka"
+              ></iframe>
+              <div className="bg-white p-4 border-t">
+                <div className="flex items-center space-x-3">
+                  <div className="w-8 h-8 bg-warm-orange text-white rounded-full flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-dark-gray">Gasbes Energy</p>
+                    <p className="text-sm text-gray-600">Corner Okra and Likaka Street, Salama Park</p>
+                    <p className="text-sm text-gray-600">Lusaka 10101, Zambia</p>
+                  </div>
+                </div>
+                <div className="mt-3 flex space-x-2">
+                  <a 
+                    href="https://www.google.com/maps/search/Salama+Park+Lusaka+Zambia" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-forest-green hover:text-warm-orange text-sm font-medium transition-colors"
+                  >
+                    View on Google Maps
+                  </a>
+                  <span className="text-gray-400">•</span>
+                  <a 
+                    href="https://www.google.com/maps/dir//Salama+Park+Lusaka+Zambia" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-forest-green hover:text-warm-orange text-sm font-medium transition-colors"
+                  >
+                    Get Directions
+                  </a>
+                </div>
               </div>
             </div>
           </div>
