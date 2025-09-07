@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import sandysCreationImg from "@assets/IMG-20250805-WA0022_1754435171407.jpg";
+import stateLodgeImg from "@assets/State lodge Installation_1757239158107.jpeg";
 
 const projects = [
   {
@@ -12,11 +13,11 @@ const projects = [
     badgeColor: "bg-warm-orange"
   },
   {
-    title: "Kasama Residential Complex",
-    description: "Community solar project powering 100+ homes with clean energy, including battery backup systems for 24/7 power.",
-    image: "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    title: "State Lodge residential",
+    description: "A residential installation in State Lodge Lusaka. The system provides the house with 24/7 power.",
+    image: stateLodgeImg,
     type: "Residential",
-    capacity: "200kW Installed",
+    capacity: "15kW Installed",
     badgeColor: "bg-forest-green"
   },
   {
