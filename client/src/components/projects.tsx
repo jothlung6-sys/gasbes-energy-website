@@ -9,8 +9,8 @@ import ruralIrrigationImg from "@assets/mwandi-trip_1757242978548.jpg";
 
 const projects = [
   {
-    title: "Sandy's Creation Restaurant",
-    description: "488kWp commercial solar installation providing clean energy for restaurant operations, reducing electricity costs by 80%.",
+    title: "Sandy's Creation Resort",
+    description: "488kWp commercial solar installation providing clean energy for resort operations, reducing electricity costs by 80%.",
     image: sandysCreationImg,
     type: "Commercial",
     capacity: "488kWp Installed",
