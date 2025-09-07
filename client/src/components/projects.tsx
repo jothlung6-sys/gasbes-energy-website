@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import sandysCreationImg from "@assets/IMG-20250805-WA0022_1754435171407.jpg";
 import stateLodgeImg from "@assets/State lodge Installation_1757239158107.jpeg";
+import katubaPoultryImg from "@assets/Katuba Poultry farm  Installation_1757239671936.jpeg";
 
 const projects = [
   {
@@ -45,12 +46,12 @@ const projects = [
     badgeColor: "bg-warm-orange"
   },
   {
-    title: "Kabwe Rural Electrification",
-    description: "Mini-grid solar system bringing electricity to remote village for the first time, powering homes and businesses.",
-    image: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    type: "Rural",
-    capacity: "150kW Grid",
-    badgeColor: "bg-forest-green"
+    title: "Katuba Poultry Farm",
+    description: "Solar installation powering poultry farm operations, providing reliable energy for lighting, ventilation, and automated feeding systems.",
+    image: katubaPoultryImg,
+    type: "Agricultural",
+    capacity: "50kW Installed",
+    badgeColor: "bg-earth-orange"
   }
 ];
 
