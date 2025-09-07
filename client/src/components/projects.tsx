@@ -4,6 +4,7 @@ import sandysCreationImg from "@assets/IMG-20250805-WA0022_1754435171407.jpg";
 import stateLodgeImg from "@assets/State lodge Installation_1757239158107.jpeg";
 import katubaPoultryImg from "@assets/Katuba Poultry farm  Installation_1757239671936.jpeg";
 import lundaziBiogasImg from "@assets/20180815_111027_1757242429055.jpg";
+import zamraImg from "@assets/IMG_6357_1757242647851.jpg";
 
 const projects = [
   {
@@ -31,11 +32,11 @@ const projects = [
     badgeColor: "bg-earth-orange"
   },
   {
-    title: "Lusaka Primary School",
-    description: "Educational facility solar installation powering classrooms, computer labs, and administrative offices.",
-    image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    type: "Educational",
-    capacity: "30kW Installed",
+    title: "ZAMRA (Zambia Medical Regulation Authority) corporate",
+    description: "Corporate solar installation providing clean energy for government regulatory offices, meeting rooms, and administrative operations.",
+    image: zamraImg,
+    type: "Corporate",
+    capacity: "100kW Installed",
     badgeColor: "bg-coffee-brown"
   },
   {
