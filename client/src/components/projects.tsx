@@ -32,11 +32,11 @@ const projects = [
     badgeColor: "bg-earth-orange"
   },
   {
-    title: "ZAMRA (Zambia Medical Regulation Authority) corporate",
+    title: "ZAMRA (Zambia Medical Regulation Authority)",
     description: "Corporate solar installation providing clean energy for government regulatory offices, meeting rooms, and administrative operations.",
     image: zamraImg,
     type: "Corporate",
-    capacity: "100kW Installed",
+    capacity: "18kWp Installed",
     badgeColor: "bg-coffee-brown"
   },
   {
