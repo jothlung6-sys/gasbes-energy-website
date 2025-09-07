@@ -50,7 +50,7 @@ const projects = [
     description: "Solar installation powering poultry farm operations, providing reliable energy for lighting, ventilation, and automated feeding systems.",
     image: katubaPoultryImg,
     type: "Agricultural",
-    capacity: "50kW Installed",
+    capacity: "240kWp Installed",
     badgeColor: "bg-earth-orange"
   }
 ];
