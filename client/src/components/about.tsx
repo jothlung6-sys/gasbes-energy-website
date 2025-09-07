@@ -1,4 +1,7 @@
 import { Target, Eye } from "lucide-react";
+import openInvertersImg from "@assets/open inverters_1757238927144.jpeg";
+import technicianWorkingImg from "@assets/Technician working_1757238927200.jpeg";
+import technicianWorking1Img from "@assets/Technician working1_1757238927202.jpeg";
 
 export default function About() {
   return (
@@ -44,11 +47,32 @@ export default function About() {
           </div>
           
           <div className="space-y-6">
-            <img 
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500" 
-              alt="Professional team meeting" 
-              className="rounded-2xl shadow-lg w-full h-auto"
-            />
+            <div className="grid grid-cols-2 gap-4 rounded-2xl overflow-hidden shadow-lg">
+              {/* Main large image - Open Inverters */}
+              <div className="col-span-2">
+                <img 
+                  src={openInvertersImg} 
+                  alt="Solar inverters and electrical equipment" 
+                  className="w-full h-64 object-cover"
+                />
+              </div>
+              
+              {/* Two smaller images - Technicians working */}
+              <div>
+                <img 
+                  src={technicianWorkingImg} 
+                  alt="Technician working on solar installation" 
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+              <div>
+                <img 
+                  src={technicianWorking1Img} 
+                  alt="Technical team member at work" 
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+            </div>
             
             <div className="grid grid-cols-3 gap-4 text-center">
               <div className="bg-white p-6 rounded-xl shadow-lg">
