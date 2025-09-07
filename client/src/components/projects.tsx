@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import sandysCreationImg from "@assets/IMG-20250805-WA0022_1754435171407.jpg";
 import stateLodgeImg from "@assets/State lodge Installation_1757239158107.jpeg";
 import katubaPoultryImg from "@assets/Katuba Poultry farm  Installation_1757239671936.jpeg";
+import lundaziBiogasImg from "@assets/20180815_111027_1757242429055.jpg";
 
 const projects = [
   {
@@ -22,11 +23,11 @@ const projects = [
     badgeColor: "bg-forest-green"
   },
   {
-    title: "Mpika Community Biogas",
-    description: "Large-scale biogas installation serving 500+ families with clean cooking fuel from agricultural waste.",
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    title: "Lundazi Family biogas",
+    description: "Family-scale biogas installation providing clean cooking fuel and gas for household needs, utilizing agricultural and organic waste.",
+    image: lundaziBiogasImg,
     type: "Biogas",
-    capacity: "500 Families",
+    capacity: "8m³ Digester",
     badgeColor: "bg-earth-orange"
   },
   {
