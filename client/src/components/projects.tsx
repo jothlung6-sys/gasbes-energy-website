@@ -5,6 +5,7 @@ import stateLodgeImg from "@assets/State lodge Installation_1757239158107.jpeg";
 import katubaPoultryImg from "@assets/Katuba Poultry farm  Installation_1757239671936.jpeg";
 import lundaziBiogasImg from "@assets/20180815_111027_1757242429055.jpg";
 import zamraImg from "@assets/IMG_6357_1757242647851.jpg";
+import ruralIrrigationImg from "@assets/mwandi-trip_1757242978548.jpg";
 
 const projects = [
   {
@@ -40,12 +41,12 @@ const projects = [
     badgeColor: "bg-coffee-brown"
   },
   {
-    title: "Ndola Health Clinic",
-    description: "Critical healthcare facility powered by reliable solar energy ensuring 24/7 medical equipment operation.",
-    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    type: "Healthcare",
-    capacity: "75kW Installed",
-    badgeColor: "bg-warm-orange"
+    title: "Rural zambia solar irrigation",
+    description: "Solar-powered irrigation system providing reliable water access for rural farming communities, supporting agricultural productivity and food security.",
+    image: ruralIrrigationImg,
+    type: "Agricultural",
+    capacity: "5kW Water Pump",
+    badgeColor: "bg-forest-green"
   },
   {
     title: "Katuba Poultry Farm",
