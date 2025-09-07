@@ -27,7 +27,7 @@ const projects = [
     description: "Family-scale biogas installation providing clean cooking fuel and gas for household needs, utilizing agricultural and organic waste.",
     image: lundaziBiogasImg,
     type: "Biogas",
-    capacity: "8m³ Digester",
+    capacity: "12m³ Digester",
     badgeColor: "bg-earth-orange"
   },
   {
