@@ -18,41 +18,11 @@ export default function Contact() {
     email: "",
     phone: "",
     serviceInterest: "",
-    projectDetails: ""
+    message: "",
+    website: "" // honeypot field
   });
 
-  const contactMutation = useMutation({
-    mutationFn: async (data: InsertContactSubmission) => {
-      const response = await apiRequest("POST", "/api/contact", data);
-      return response.json();
-    },
-    onSuccess: () => {
-      toast({
-        title: "Message Sent!",
-        description: "Thank you for your interest. We'll get back to you within 24 hours.",
-      });
-      setFormData({
-        firstName: "",
-        lastName: "",
-        email: "",
-        phone: "",
-        serviceInterest: "",
-        projectDetails: ""
-      });
-    },
-    onError: () => {
-      toast({
-        title: "Error",
-        description: "Failed to send message. Please try again.",
-        variant: "destructive",
-      });
-    },
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    contactMutation.mutate(formData);
-  };
+  // Form will submit directly to PHP, no React submission handler needed
 
   const handleInputChange = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
@@ -72,12 +42,13 @@ export default function Contact() {
           {/* Contact Form */}
           <div className="bg-gray-50 p-8 rounded-2xl">
             <h3 className="text-2xl font-bold text-dark-gray mb-6">Request a Quote</h3>
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form action="/contact.php" method="post" className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <Label htmlFor="firstName" className="text-gray-700 font-semibold">First Name</Label>
                   <Input
                     id="firstName"
+                    name="firstName"
                     type="text"
                     value={formData.firstName}
                     onChange={(e) => handleInputChange("firstName", e.target.value)}
@@ -90,6 +61,7 @@ export default function Contact() {
                   <Label htmlFor="lastName" className="text-gray-700 font-semibold">Last Name</Label>
                   <Input
                     id="lastName"
+                    name="lastName"
                     type="text"
                     value={formData.lastName}
                     onChange={(e) => handleInputChange("lastName", e.target.value)}
@@ -104,6 +76,7 @@ export default function Contact() {
                 <Label htmlFor="email" className="text-gray-700 font-semibold">Email Address</Label>
                 <Input
                   id="email"
+                  name="email"
                   type="email"
                   value={formData.email}
                   onChange={(e) => handleInputChange("email", e.target.value)}
@@ -117,6 +90,7 @@ export default function Contact() {
                 <Label htmlFor="phone" className="text-gray-700 font-semibold">Phone Number</Label>
                 <Input
                   id="phone"
+                  name="phone"
                   type="tel"
                   value={formData.phone}
                   onChange={(e) => handleInputChange("phone", e.target.value)}
@@ -140,27 +114,40 @@ export default function Contact() {
                     <SelectItem value="audit">Energy Audit</SelectItem>
                   </SelectContent>
                 </Select>
+                {/* Hidden input for service field */}
+                <input type="hidden" name="service" value={formData.serviceInterest} />
               </div>
               
               <div>
-                <Label htmlFor="details" className="text-gray-700 font-semibold">Project Details</Label>
+                <Label htmlFor="message" className="text-gray-700 font-semibold">Project Details</Label>
                 <Textarea
-                  id="details"
-                  value={formData.projectDetails}
-                  onChange={(e) => handleInputChange("projectDetails", e.target.value)}
+                  id="message"
+                  name="message"
+                  value={formData.message}
+                  onChange={(e) => handleInputChange("message", e.target.value)}
                   placeholder="Tell us about your energy needs and project requirements..."
                   rows={4}
                   className="mt-2"
                 />
               </div>
               
+              {/* Honeypot field - hidden from users */}
+              <input 
+                type="text" 
+                name="website" 
+                value={formData.website}
+                onChange={(e) => handleInputChange("website", e.target.value)}
+                style={{ display: 'none' }} 
+                tabIndex={-1}
+                autoComplete="off"
+              />
+              
               <Button 
                 type="submit" 
                 className="w-full bg-forest-green text-white hover:bg-coffee-brown text-lg py-4 h-auto"
-                disabled={contactMutation.isPending}
               >
                 <Send className="mr-2 h-5 w-5" />
-                {contactMutation.isPending ? "Sending..." : "Send Message"}
+                Send Message
               </Button>
             </form>
           </div>
