@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+# keep server-only or transient pages out of the index
+Disallow: /contact.php
+Disallow: /phpmailer/
+Disallow: /thanks.html
+
+Sitemap: https://www.gasbesenergy.com/sitemap.xml
