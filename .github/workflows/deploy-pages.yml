@@ -31,7 +31,7 @@ jobs:
         run: npm ci
 
       - name: Build website
-        run: npx vite build --base=/gasbes-energy-website/
+        run: npx vite build --base=/
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
